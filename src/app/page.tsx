@@ -103,9 +103,12 @@ export default function Home() {
     </div>
   );
 }
+interface IconProps {
+  className: string;
+}
 
 // Icono combinado de Escudo + Código
-const ShieldCodeIcon = ({ className }) => (
+const ShieldCodeIcon: React.FC<IconProps> = ({ className }) => (
   <svg
     className={className}
     viewBox="0 0 64 64"
