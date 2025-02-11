@@ -28,6 +28,18 @@ export function Proyects(){
     ]
   };
 
+  const Cub3D ={
+    project: "Cub3D",
+    image: "/cub3d.jpg",
+    description: "El proyecto Cub3D es un juego de tipo FPS (First Person Shooter) que permite al jugador moverse por un laberinto en 3D, con la capacidad de abrir y cerrar puertas, así como de disparar proyectiles. Se implementó un motor gráfico desde cero, utilizando miniLibX.",
+    url_git: "",
+    url_web: "",
+    tags: [
+      { color: "orange", text: "C" },
+      { color: "blue", text: "miniLibX" }
+    ]
+  }
+
   return (
     <div>
       {/* Sección Proyectos */}
@@ -45,7 +57,7 @@ export function Proyects(){
             <Card {...Minishell} />
 
             {/* Card 3 */}
-            
+            <Card {...Cub3D} />
           </div>
         </div>
       </section>
