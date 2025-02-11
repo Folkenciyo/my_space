@@ -61,14 +61,14 @@ export default function Home() {
   <p className="text-lg text-gray-400 mb-4">
     ¿Quieres ponerte en contacto conmigo? ¡Envíame un mensaje!
   </p>
-  <div className="flex flex-col items-center space-y-4">
-    <div className="flex items-center space-x-2">
+  <div className="flex flex-col items-center space-y-4 mt-8">
       <input
         type="text"
         value="juanguerrero.dev@gmail.com"
         readOnly
         className="px-5 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-700 w-64"
       />
+    <div className="flex items-center space-x-2">
       <a
         href="mailto:juanguerrero.dev@gmail.com"
         className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
