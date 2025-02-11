@@ -1,11 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
-
-import Link from "next/link";
 import Skills from "./components/Skills";
 import { Proyects } from "./components/Proyects";
 import { MouseEffect } from "./components/MouseEffect";
@@ -28,7 +22,7 @@ export default function Home() {
             <img
               src="/juan_guerrero.jpg"
               alt="Juan Guerrero"
-              className="mb-10 w-40 h-50 object-cover rounded-full border-4 border-gray-300 shadow-lg"
+              className="mb-10 w-60 h-50 object-cover rounded-full border-4 border-gray-300 shadow-lg"
             />
             <h1 className="text-5xl font-bold mb-4">&lt;/&gt;Juan Guerrero</h1>
             <p className="text-xl text-gray-400 max-w-2xl">
@@ -47,9 +41,9 @@ export default function Home() {
           <p className="text-lg text-gray-400 max-w-2xl">
             Destaco por mi capacidad analítica, resolución de problemas y
             trabajo en equipo, cualidades que aplico para enfrentar desafíos
-            yaportar valor en proyectos tecnológicos. Soy adaptable, meticuloso,
+            y aportar valor en proyectos tecnológicos. Soy adaptable, meticuloso,
             siempre busco la innovación tecnológica y la eficiencia en
-            missoluciones. Además, cuento con conocimientos en programación
+            mis soluciones. A demás, cuento con conocimientos en programación
             general, incluyendo lenguajes como C++, Python y JavaScript.
           </p>
         </section>
@@ -73,7 +67,7 @@ export default function Home() {
         type="text"
         value="juanguerrero.dev@gmail.com"
         readOnly
-        className="px-5 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-700"
+        className="px-5 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-700 w-64"
       />
       <a
         href="mailto:juanguerrero.dev@gmail.com"

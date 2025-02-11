@@ -72,7 +72,55 @@ export default function Skills() {
             </div>
             <div className="absolute inset-x-0 bottom-0 h-1 bg-green-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
           </div>
+                    {/* MongoDB */}
+                    <div className="group relative">
+            <div className="bg-green-100 text-green-800 px-6 py-3 rounded-lg flex items-center space-x-2 transition-transform transform hover:scale-105">
+              <img
+                src="https://simpleicons.org/icons/mongodb.svg"
+                alt="MongoDB"
+                className="w-6 h-6"
+              />
+              <span className="font-semibold">MongoDB</span>
+            </div>
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-green-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          </div>
 
+          {/* Docker */}
+          <div className="group relative">
+            <div className="bg-blue-100 text-blue-800 px-6 py-3 rounded-lg flex items-center space-x-2 transition-transform transform hover:scale-105">
+              <img
+                src="https://simpleicons.org/icons/docker.svg"
+                alt="Docker"
+                className="w-6 h-6"
+              />
+              <span className="font-semibold">Docker</span>
+            </div>
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-blue-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          </div>
+          {/* Three.js */}
+          <div className="group relative">
+            <div className="bg-gray-100 text-gray-800 px-6 py-3 rounded-lg flex items-center space-x-2 transition-transform transform hover:scale-105">
+              <img
+                src="https://simpleicons.org/icons/threedotjs.svg"
+                alt="Three.js"
+                className="w-6 h-6"
+              />
+              <span className="font-semibold">Three.js</span>
+            </div>
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-gray-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          </div>
+          {/* Blender */}
+          <div className="group relative">
+            <div className="bg-orange-100 text-orange-800 px-6 py-3 rounded-lg flex items-center space-x-2 transition-transform transform hover:scale-105">
+              <img
+                src="https://simpleicons.org/icons/blender.svg"
+                alt="Blender"
+                className="w-6 h-6"
+              />
+              <span className="font-semibold">Blender</span>
+            </div>
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-orange-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          </div>
           {/* Tailwind CSS */}
           <div className="group relative">
             <div className="bg-teal-100 text-teal-800 px-6 py-3 rounded-lg flex items-center space-x-2 transition-transform transform hover:scale-105">

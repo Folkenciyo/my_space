@@ -11,22 +11,22 @@ export function MouseEffect() {
       document.body.style.cursor = "none"; // Ocultar puntero
     };
 
-    /*     const handleMouseLeave = () => {
+        const handleMouseLeave = () => {
         document.body.style.cursor = "default"; // Restaurar puntero al salir
-      }; */
+      };
 
     window.addEventListener("mousemove", handleMouseMove);
-    /* window.addEventListener("mouseleave", handleMouseLeave); */
+    window.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
-      /* window.removeEventListener("mouseleave", handleMouseLeave); */
+      window.removeEventListener("mouseleave", handleMouseLeave);
     };
   }, []);
 
   return (
     <motion.div
-      className="fixed top-0 left-0 w-6 h-6 bg-transparent border border-blue-400 rounded-full pointer-events-none"
+      className="fixed top-0 left-0 w-6 h-6 bg-transparent border-4 border-cyan-400 rounded-full "/* pointer-events-none */
       style={{
         x: mousePosition.x - 12,
         y: mousePosition.y - 12,
