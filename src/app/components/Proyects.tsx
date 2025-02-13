@@ -1,9 +1,8 @@
 "use client";
 import { useEffect } from 'react';
-
 import { Card } from './Card';
 
-export function Proyects(){
+export function Proyects() {
   const Porfolio = {
     project: "Porfolio personal",
     image: "/porfolio_room.png",
@@ -28,7 +27,7 @@ export function Proyects(){
     ]
   };
 
-  const Cub3D ={
+  const Cub3D = {
     project: "Cub3D",
     image: "/cub3d.jpg",
     description: "El proyecto Cub3D es un juego de tipo FPS (First Person Shooter) que permite al jugador moverse por un laberinto en 3D, con la capacidad de abrir y cerrar puertas, así como de disparar proyectiles. Se implementó un motor gráfico desde cero, utilizando miniLibX.",
@@ -38,7 +37,7 @@ export function Proyects(){
       { color: "orange", text: "C" },
       { color: "blue", text: "miniLibX" }
     ]
-  }
+  };
 
   return (
     <div>
