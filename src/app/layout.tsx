@@ -19,9 +19,8 @@ export const metadata: Metadata = {
 
 import { Inter } from 'next/font/google';
 
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
+
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -33,8 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        <main className="container mx-auto px-4">
+        <main>
           {children}
         </main>
       </body>
